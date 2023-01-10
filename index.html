@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Start</title>
+
+    <!-- css -->
+    <style>
+        /*표준화*/
+        body,
+        nav,
+        div,
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navBar {
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            height: 155px;
+            background: #0032569C;
+            position: absolute;
+            text-align: center;
+            font: normal normal bold 17px/25px Noto Sans SC;
+            color: #FFFFFF;
+        }
+
+        .navMenu {
+            width: 80%;
+            text-align: left;
+            padding: 58px 0px 61px 70px;
+            margin: 0px;
+        }
+
+        .logIn {
+            float: right;
+            font: normal normal medium 15px/21px Noto Sans SC;
+            letter-spacing: -0.36px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .carousel {
+            width: 100%;
+            height: 1080px;
+            background-image: url('/img/배경.png');
+            background-size: cover;
+        }
+
+        .carouselTextWrap {
+            padding: 411px 0px 0px 120px;
+        }
+
+        .carouselText1 {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-42)/var(--unnamed-line-spacing-61) var(--unnamed-font-family-noto-sans-sc);
+            letter-spacing: var(--unnamed-character-spacing--1-05);
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal bold 42px/61px Noto Sans SC;
+            letter-spacing: -1.05px;
+            color: #FFFFFF;
+        }
+
+        .carouselText2 {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-36) var(--unnamed-font-family-noto-sans-sc);
+            letter-spacing: var(--unnamed-character-spacing--0-6);
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal normal 24px/36px Noto Sans SC;
+            letter-spacing: -0.6px;
+            color: #FFFFFF;
+            margin: 43px auto;
+        }
+
+        .carouselIcon {
+            margin-right: 9px;
+        }
+
+        .floatWrap {
+            /*float: right;*/
+            display: grid;
+            justify-items: end;
+        }
+
+        .theStartProgramWrap {
+            background-image: url('img/더스타트\ 프로그램.png');
+            background-size: cover;
+            width: 100%;
+            height: 1489px;
+        }
+
+        .theStartProgram {
+            background-image: url('');
+            width: 100%;
+            height: 3380px;
+        }
+
+        .programWrap {
+            text-align: center;
+            margin: auto;
+            padding-top: 510px;
+        }
+
+        .findYourService {
+            background-image: url('img/그룹\ 443.png');
+            background-size: cover;
+            width: 1921px;
+            height: 1088px;
+            text-align: center;
+        }
+
+        .findNowBtn {
+            padding-top: 676px;
+        }
+
+        .education {
+            background-image: url('img/배경+.png');
+            background-size: cover;
+            width: 100%;
+            height: 1321px;
+        }
+
+        .goBtn1 {
+            padding: 1028px 0px 225px 273px
+        }
+
+        .goBtn2,
+        .goBtn3 {
+            padding: 1028px 0px 225px 348px
+        }
+
+        .case {
+            background-image: url('img/그룹\ 444.png');
+            background-size: cover;
+            width: 100%;
+            height: 1080px;
+        }
+
+        .news {
+            background-image: url('img/더스타트\ 소식.png');
+            background-size: cover;
+            width: 100%;
+            height: 1080px;
+        }
+
+        .footer {
+            background-image: url('img/footer.svg');
+            background-size: cover;
+            width: 100%;
+            height: 417px;
+        }
+
+        .selfstart {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navBar">
+        <div class="navMenu">
+            <a class="logo" href="#"><img src="/img/더스타트 로고.svg" alt="" srcset=""></a>
+            <a>회사소개</a>
+            <a>Salesforce</a>
+            <a>프로그램</a>
+            <a>교육</a>
+            <a>서비스 신청</a>
+            <a>고객사례</a>
+            <a>FAQ</a>
+            <a>News</a>
+            <a href="#" class="logIn">로그인</a>
+        </div>
+    </nav>
+    <!-- 캐러셀 -->
+    <div class="carousel">
+        <div class="carouselTextWrap">
+            <p class="carouselText1">더스타트 프로그램</p>
+            <p class="carouselText2">
+                DK BMC에서만 제공하는 Salesforce 도입과 관리를 위한최적의 서비스, 더스타트!<br>
+                업계 최초 DIY 형식의 셀프 구축 서비스부터 Salesforce 전문가 개발 지원까지<br>
+                다양한 서비스를 편리하게 경험해 보세요.
+            </p>
+            <div>
+                <p class="bullet bullet1">
+                    <img class="carouselIcon" src="img/사각형 5.svg">
+                    <img class="carouselIcon" src="img/타원 3.png">
+                    <img class="carouselIcon" src="img/타원 3.png">
+                    <img class="carouselIcon" src="img/pause.svg">
+                    <img class="carouselIcon" src="img/prev.svg">
+                    <img src="img/next.svg">
+                </p>
+            </div>
+            <div class="floatWrap">
+                <img src="img/floatbtn1.png">
+                <!-- <button class="floatButton"></button> -->
+                <button class="floatButton"><img src="img/top_btn.svg"></button>
+            </div>
+        </div>
+    </div>
+    <!-- 더스타트 프로그램 -->
+    <div class="theStartProgramWrap">
+        <div class="theStartProgram">
+            <div class="programWrap">
+                <div>
+                    <img class="selfstart" src="img/01_셀프 스타트.png">
+                    <img src="img/02_스타트 패키지.png">
+                </div>
+                <div>
+                    <img src="img/03_빌드업.png">
+                    <img src="img/04_슈퍼비전.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 고객님께 맞는 서비스 찾아보세요 -->
+    <div class="findYourService">
+        <a href="#"></a><img class="findNowBtn" src="img/btn.svg"></a>
+    </div>
+    <!-- 더스타트 교육 -->
+    <div class="education">
+        <img class="goBtn1" src="img/바로가기.svg" alt="">
+        <img class="goBtn2" src="img/바로가기.svg" alt="">
+        <img class="goBtn3" src="img/바로가기.svg" alt="">
+    </div>
+    <!-- 고객사례 -->
+    <div class="case">
+
+    </div>
+    <!-- 더스타트 소식 -->
+    <div class="news"></div>
+    <!-- footer -->
+    <footer class="footer"></footer>
+</body>
+
+</html>
