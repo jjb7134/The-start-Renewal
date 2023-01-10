@@ -1,0 +1,19 @@
+body {
+  background: rgb(159, 152, 152);
+}
+
+div {
+  text-align: center;
+}
+
+.plusBtn {
+  /* text-align: center;*/
+  margin-top: 200px;
+}
+
+.btn :hover {
+  transform: rotate(45deg);
+  transition-duration: 0.3s;
+  color: aqua;
+  background: aqua;
+}
