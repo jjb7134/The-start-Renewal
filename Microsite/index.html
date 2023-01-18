@@ -283,19 +283,7 @@
             margin-bottom: 61px;
         }
 
-        .contact-form-btn {
-            margin: 0px;
-            padding: 0px;
-            border-style: none;
-        }
 
-        .contact-form-btn img {
-            vertical-align: bottom;
-            width: 233px;
-            height: 58px;
-            margin: 0px;
-            padding: 0px;
-        }
 
         .label {
             font: normal normal normal 22px/41px Noto Sans SC;
@@ -324,6 +312,35 @@
         .label-inline {
             display: inline-block;
             width: 49.5%;
+        }
+
+        .chk-text {
+            font: normal normal normal 18px/41px Noto Sans SC;
+            color: #FFFFFF;
+        }
+
+        .checkbox-wrap {
+            width: 50%;
+            display: inline-block;
+        }
+
+        .checkbox-wrap input {
+            border: 2px solid #FFFFFF;
+            background: black;
+        }
+
+        .contact-form-btn {
+            margin: 0px 0px 0px 19.5%;
+            padding: 0px;
+            border-style: none;
+        }
+
+        .contact-form-btn img {
+            vertical-align: bottom;
+            width: 233px;
+            height: 58px;
+            margin: 0px;
+            padding: 0px;
         }
 
         /*--------------------------The Program-------------------------------------*/
@@ -513,10 +530,14 @@
                     </div>
                 </form>
                 <div class="checkbox-wrap">
-                    <input type="checkbox" value="[필수] 개인정보 수집 / 이용에 동의합니다.">
-                    <label for="">필수</label>
-                    <input type="checkbox" value="[선택] 마케팅 / 광고 활용에 동의합니다">
-                    <label for="">선택</label>
+                    <div class="chk-ment-wrap">
+                        <input type="checkbox" value="[필수] 개인정보 수집 / 이용에 동의합니다.">
+                        <label class="chk1 chk-text" for="">[필수] 개인정보 수집 / 이용에 동의합니다.</label>
+                    </div>
+                    <div class="chk-ment-wrap">
+                        <input type="checkbox" value="[선택] 마케팅 / 광고 활용에 동의합니다">
+                        <label class="chk2 chk-text" for="">[선택] 마케팅 / 광고 활용에 동의합니다</label>
+                    </div>
                 </div>
                 <button class="contact-form-btn" type="submit"><img src="img/제출하기Btn.png" alt=""></button>
             </div>
