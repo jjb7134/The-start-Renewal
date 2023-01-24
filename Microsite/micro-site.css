@@ -1,0 +1,27 @@
+/* ----------- default ----------------- */
+* {
+  /* size: bod; */
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-wrap {
+  text-align: center;
+  width: 1290px;
+  height: 800px;
+  background-image: url("images/simon-lee-WK5uLckIjRo-unsplash.png");
+  background-size: cover;
+}
+
+/* ----------------min 750-------------- */
+@media (min-width: 750px) {
+}
+
+/* ----------------min 1920------------  */
+@media (min-width: 1920px) {
+}
